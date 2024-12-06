@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <h4>Registration Form</h4>
+    <form action ="/action.php">
+        <input type = "text" placeholder = "username or gmail"><br><br>
+        <input type = "password" placeholder = "password"> <br> <br>
+        <h5>Select Your Gender</h5>
+        <label for="101">
+            <input type="radio" value="male" name="human" id ="101">Male             
+        </label> <br>
+        <label for="102">
+            <input type="radio" value="female" name="human" id="102">Female
+        </label> <br><br>
+
+        
+        <h5>Select Your Design That You Liked</h5>
+        <label for="royal">
+            <input type="checkbox" value="royal" name="design" id="101">Royal
+        </label><br>
+        <label for="standard">
+            <input type="checkbox" value="standard" name="design" id="102">Standard
+        </label><br>
+        <label for="commercial">
+            <input type="checkbox" value="commercial" name="design" id="103">Commercial
+        </label><br>
+        <label for="religious">
+            <input type="checkbox" value="religious" name="design" id="104">Religious
+        </label><br><br>
+        <h5>Select Your Division</h5>
+        <select name="division">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Khulna">Khulna</option>
+            <option value="Chittagong">Chittagong</option>
+            <option value="Sylhet">Sylhet</option>
+        </select> <br><br>
+        <h5>Feedback</h5>
+        <textarea name="feedback" id="101" placeholder="please give your feedback" rows="5"></textarea>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</html>
